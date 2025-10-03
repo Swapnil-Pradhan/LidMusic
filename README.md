@@ -1,6 +1,6 @@
 Install the first pre-release [here](https://github.com/Swapnil-Pradhan/LidMusic/releases/download/LidMusic/LidMusic.app.zip).  
 
-# A *[vibe-coded](https://cloud.google.com/discover/what-is-vibe-coding)* tool to continue playing music even with lid closed on your MacBook
+# A *[vibe-coded](https://cloud.google.com/discover/what-is-vibe-coding)* tool to continue playing music even with the lid closed on your MacBook
   
 ## Feature roadmap:  
 - [ ] Add support for [Spotube](https://spotube.krtirtho.dev) and other apps not having `player state` feature  
