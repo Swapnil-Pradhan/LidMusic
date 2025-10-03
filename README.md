@@ -6,5 +6,5 @@ Tip: Add LidMusic.app to your login items in System Settings.
   
 ## Feature roadmap:  
 - [ ] Add support for [Spotube](https://spotube.krtirtho.dev) and other apps not having `player state` feature  
-- [ ] Add sleep timer  
-- [x]  Play music with lid closed
+- [ ] Brightness control on lid open or close
+- [x] Play music with lid closed
