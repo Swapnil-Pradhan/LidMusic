@@ -71,20 +71,20 @@ on idle
 	end if
 	
 	-- Only act when state changes
-	if currentState ­ lastState then
+	if currentState â‰  lastState then
 		set lastState to currentState
 		
 		if currentState is "playing" then
 			do shell script quoted form of (helperDir & "nosleep.sh") with administrator privileges
-			set userPowerMode to do shell script "pmset -g | grep 'lowpowermode' | awk '{print $2}'"
-			if userPowerMode = "0" then
-				do shell script quoted form of (helperDir & "lowPowerOn.sh") with administrator privileges
-			end if
+			--set userPowerMode to do shell script "pmset -g | grep 'lowpowermode' | awk '{print $2}'"
+			--if userPowerMode = "0" then
+			--do shell script quoted form of (helperDir & "lowPowerOn.sh") with administrator privileges
+			--end if
 		else
 			do shell script quoted form of (helperDir & "sleep.sh") with administrator privileges
-			if userPowerMode = "0" then
-				do shell script quoted form of (helperDir & "lowPowerOff.sh") with administrator privileges
-			end if
+			--if userPowerMode = "0" then
+			--do shell script quoted form of (helperDir & "lowPowerOff.sh") with administrator privileges
+			--end if
 		end if
 	end if
 	
