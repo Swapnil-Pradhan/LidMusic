@@ -1,3 +1,5 @@
+Install the first pre-release [here](https://github.com/Swapnil-Pradhan/LidMusic/releases/download/LidMusic/LidMusic.app.zip).  
+
 # A *[vibe-coded](https://cloud.google.com/discover/what-is-vibe-coding)* tool to continue playing music even with lid closed on your MacBook
   
 ## Feature roadmap:  
