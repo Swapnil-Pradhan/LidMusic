@@ -1,11 +1,13 @@
-Install the first pre-release [here](https://github.com/Swapnil-Pradhan/LidMusic/releases/download/LidMusic/LidMusic.app.zip).
+# A **tool to continue playing music even with the lid closed on your MacBook**
 
-Tip: Add LidMusic.app to your login items in System Settings.
+## Feature roadmap:
 
-# A *[vibe-coded](https://cloud.google.com/discover/what-is-vibe-coding)* tool to continue playing music even with the lid closed on your MacBook
-  
-## Feature roadmap:  
-- [ ] Add support for [Spotube](https://spotube.krtirtho.dev) and other apps not having `player state` feature  
-- [ ] Brightness control on lid open or close
-- [x] Toggle low power mode depending on lid open or close
+- [ ] Add sleep timer
+- [ ] Monitoring specific apps within Now playing
+- [x] Add support for [Spotube](https://spotube.krtirtho.dev) and other apps not having `player state` feature
+- [x] Turn of display and turn on low power mode to save battery when lid is closed
 - [x] Play music with lid closed
+
+Install the first beta release [here](https://github.com/Swapnil-Pradhan/LidMusic/releases/tag/LidMusic).
+
+PS: The code might look a bit messy now. I’ll tidy up later, currently busy with exams.
