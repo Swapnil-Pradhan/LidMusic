@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>helperDir</key>
+	<string>/Applications/LidMusic.app/Contents/Resources/Helpers/</string>
+	<key>icon</key>
+	<string>🐼</string>
+	<key>installedAt</key>
+	<string>2025-10-08T06:46:59Z</string>
+	<key>isHelperInstalled</key>
+	<true/>
+	<key>toMonitor</key>
+	<dict>
+		<key>Apple Music</key>
+		<false/>
+		<key>Now Playing (Beta)</key>
+		<true/>
+		<key>Spotify</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

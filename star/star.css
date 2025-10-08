@@ -1,0 +1,25 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    scale: 1;
+  }
+  50% {
+    scale: 5;
+  }
+  100% {
+    transform: rotate(720deg);
+    scale: 1;
+  }
+}
+
+#repository-details-container
+  > ul
+  > li:nth-child(4)
+  > div
+  > div.unstarred.BtnGroup.ml-0.flex-1
+  > form
+  > button
+  > svg
+  > path {
+  animation: spin 1s ease-out;
+}
