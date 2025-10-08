@@ -1,1 +1,0 @@
-pmset -a lowpowermode 0

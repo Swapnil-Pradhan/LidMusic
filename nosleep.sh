@@ -1,1 +1,0 @@
-pmset disablesleep 1
